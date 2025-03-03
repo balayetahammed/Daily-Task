@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <hr><br>
+    <form action="">
+        <div>
+            <label for="district">District (Institute District: Where you want to do your course)*</label><br>
+            <select name="" id="district" required>
+             <option value="">--Select One--</option>
+             <option value="">Dhaka</option>
+             <option value="">Narayanganj</option>
+             <option value="">Gazipur</option>
+             <option value="">Bogra</option>
+             <option value="">Faridpur</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="course">Course*</label><br>
+            <select name="" id="course" required>
+             <option value="">--Select One--</option>
+             <option value="">FrontEnd Developer</option>
+             <option value="">BackEnd Developer</option>
+             <option value="">MERN Developer</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="stuName">Student Name*
+            </label><br>
+            <input type="text" id="stuName" required>
+        </div><br>
+        <div>
+            <label for="fatName">Father Name*
+            </label><br>
+            <input type="text" id="fatName" required>
+        </div><br>
+        <div>
+            <label for="motName">Mother Name*
+            </label><br>
+            <input type="text" id="motName" required>
+        </div><br>
+        <div>
+            <label for="gender">Gender*</label>
+            <input type="radio" id="gender" name="gender"> <label for="gender">Male</label>
+            <input type="radio" id="gender" name="gender"> <label for="gender">Female</label>
+        </div><br>
+        <div>
+            <label for="physical">Physically Handicapped*</label>
+            <input type="radio" id="physical" name="physical"> <label for="physical">Yes</label>
+            <input type="radio" id="physical" name="physical"> <label for="physical">No</label>
+        </div><br>
+        <div>
+            <label for="email">Email*
+            </label><br>
+            <input type="email" id="email" required><br>
+            <span>(e.g: example@mail.com)</span>
+        </div><br>
+        <div>
+            <label for="number">Phone (Must be 11 Digits)*
+            </label><br>
+            <input type="number" id="number" required><br>
+            <span>(e.g:0155123456)</span>
+        </div><br>
+        <div>
+            <label for="photograph">Photograph*</label><br>
+            <input type="file" id="photograph"><br>
+            <span>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)
+            </span>
+        </div><br>
+        <div>
+            <label for="signature">Signature*</label><br>
+            <input type="file" id="signature"><br>
+            <span>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)
+            </span>
+        </div><br>
+        <button>Submit Data</button>
+    </form>
+</body>
+</html>
